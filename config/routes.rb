@@ -1,4 +1,6 @@
 Vimbits2::Application.routes.draw do
+  resources :users
+
   resources :bits
 
   # The priority is based upon order of creation: first created -> highest priority.
